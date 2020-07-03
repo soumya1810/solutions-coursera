@@ -1,90 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-	
-	<title>Module 3 Solution</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
-    <header class="nav-header">
-    <nav id="header-nav" class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <div class="navbar-brand">
-            <p class="nav-brand">Food, LLC</p>
-          </div>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>Food, LLC</h1></a>
+                    </div>
 
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+                    <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+                        <li>
+                            <a href="#chineese-tile"><br class="hidden-xs"> chineese</a>
+                        </li>
+                        <li>
+                            <a href="#mughlai-tile"><br class="hidden-xs"> mughlai</a>
+                        </li>
+                        <li>
+                            <a href="#italian-tile"><br class="hidden-xs"> italian</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="main-content" class="container">
+        <h2 id="top-heading" class="text-center">Our Menu</h2>
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="chineese-tile">
+                    <section>
+                        <h3 class="text-center">chineese</h3>
+                        <p>
+                            The staple food in China is usually rice and wheat. The local flavors and superb cooking form the present famous Chinese Eight Cuisines from the eight provinces of Shandong, Sichuan, Guangdong, Jiangsu, Zhejiang, Fujian, Hunan and Anhui, each of which has its own characteristics. Including the typical Beijing Cuisine and Shanghai Cuisine, which are also popular in China.You can enjoy the delicious Chinese food only at our superior restaurants with many facilities and quality service,  Prices vary, based on the different conditions and the environment. Anyway, wherever you go for a meal, health, sanitation and safety are necessities that you should pay much attention to.
+                        </p>
+                        <p>
+                            (End of chineese section) <a href="#top-heading">Back to Top</a>
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="mughlai-tile">
+                    <section>
+                        <h3 class="text-center">mughlai</h3>
+                        <p>
+                           The preparation of Mughlai cuisine was likely time-consuming and very involved with the number of flavored sauces and butter-based curries—it's almost like it was created to make people want more food because it can be that indulgent! The names of these foods are also so intriguing, which may tempt people to try new dishes in the Mughlai style. our restaurant interpret Mughlai dishes as mild to medium-hot cream and nut-based gravies, rice dishes with lots of nuts, dried fruits, and rich creamy desserts where you should expect spices like saffron, cinnamon, cardamom, cloves, and nutmeg. These popular Mughlai-style gravies also pair well with rice and bread.
+
+			   Common dishes that feature traditional Mughlai flavors include biryani, kebabs, kofta (meatballs), pulao (or pilaf), and tandoor. Examples of these traditional dishes include Mughlai chicken, Mughlai biryani, Mughlai paratha, malai kofta, reshmi kebab, kadhai gosht, and murg tandoor. Traditional Mughlai desserts include the bread pudding shani tukra, barfi, kalakand, and falooda.
+                        </p>
+                        <p>
+                            (End of mughlai section) <a href="#top-heading">Back to Top</a>
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <!-- <div class="clearfix visible-md-block"></div> -->
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div id="italian-tile">
+                    <section>
+                        <h3 class="text-center">italian</h3>
+                        <p>
+                       	    Italian cuisine has a great variety of different ingredients which are commonly used, ranging from fruits, vegetables, sauces, meats, etc. In the North of Italy, fish (such as cod, or baccalà), potatoes, rice, corn (maize), sausages, pork, and different types of cheeses are the most common ingredients used here. Pasta dishes with use of tomato are spread in all Italy. we like our ingredients fresh and subtly seasoned and spiced.
+			    Italian cuisine is also well known (and well regarded) for its use of a diverse variety of pasta. Pasta include noodles in various lengths, widths, and shapes. Most pastas may be distinguished by the shapes for which they are named—penne, maccheroni, spaghetti, linguine, fusilli, lasagne, and many more varieties that are filled with other ingredients like ravioli and tortellini.
+                        </p>
+                        <p>
+                            (End of italian section) <a href="#top-heading">Back to Top</a>
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <!-- <div class="clearfix visible-lg-block"></div> -->
         </div>
-        
-        <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-            <li class="text-center chineese-item">
-              <a href="#chineese-div"><p class="item">chineese</p></a>
-              <hr class="visible-xs">
-            </li>            
-            <li class="text-center mughalai-item">
-              <a href="#mughalai-div"><p class="item">mughalai</p></a>
-              <hr class="visible-xs">
-            </li>
-            <li class="text-center italian-item">
-              <a href="#italian-div"><p class="item">italian</p></a>
-            </li>
-          </ul> 
-        </div>
-      </div>
-    </nav>
-  	</header>
+    </div>
+    <div class="clearfix visible-lg-block"></div>
 
-	<h1 class="text-center">Our Menu</h1>
 
-	<div class="row container container-fluid">
-	<div class="col-md-12 col-sm-12 col-xs-12" id="chineese-div">
-		<section>
-		<div id="chineese">
-			chineese
-		</div>
-		<p>
-			The staple food in China is usually rice and wheat. The local flavors and superb cooking form the present famous Chinese Eight Cuisines from the eight provinces of Shandong, Sichuan, Guangdong, Jiangsu, Zhejiang, Fujian, Hunan and Anhui, each of which has its own characteristics. Including the typical Beijing Cuisine and Shanghai Cuisine, which are also popular in China.You can enjoy the delicious Chinese food only at our superior restaurants with many facilities and quality service,  Prices vary, based on the different conditions and the environment. Anyway, wherever you go for a meal, health, sanitation and safety are necessities that you should pay much attention to.
-		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="mughlai-div">
-		<section>
-		<div id="mughlai">
-			mughlai
-		</div>
-		<p>
-			The preparation of Mughlai cuisine was likely time-consuming and very involved with the number of flavored sauces and butter-based curries—it's almost like it was created to make people want more food because it can be that indulgent! The names of these foods are also so intriguing, which may tempt people to try new dishes in the Mughlai style. our restaurant interpret Mughlai dishes as mild to medium-hot cream and nut-based gravies, rice dishes with lots of nuts, dried fruits, and rich creamy desserts where you should expect spices like saffron, cinnamon, cardamom, cloves, and nutmeg. These popular Mughlai-style gravies also pair well with rice and bread.
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
 
-			Common dishes that feature traditional Mughlai flavors include biryani, kebabs, kofta (meatballs), pulao (or pilaf), and tandoor. Examples of these traditional dishes include Mughlai chicken, Mughlai biryani, Mughlai paratha, malai kofta, reshmi kebab, kadhai gosht, and murg tandoor. Traditional Mughlai desserts include the bread pudding shani tukra, barfi, kalakand, and falooda.
-		</p>
-		</section>
-	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12" id="italian-div">
-		<section>
-		<div id="italian">
-			italian
-		</div>
-		<p>
-			Italian cuisine has a great variety of different ingredients which are commonly used, ranging from fruits, vegetables, sauces, meats, etc. In the North of Italy, fish (such as cod, or baccalà), potatoes, rice, corn (maize), sausages, pork, and different types of cheeses are the most common ingredients used here. Pasta dishes with use of tomato are spread in all Italy. we like our ingredients fresh and subtly seasoned and spiced.
-			Italian cuisine is also well known (and well regarded) for its use of a diverse variety of pasta. Pasta include noodles in various lengths, widths, and shapes. Most pastas may be distinguished by the shapes for which they are named—penne, maccheroni, spaghetti, linguine, fusilli, lasagne, and many more varieties that are filled with other ingredients like ravioli and tortellini. 
-		</p>
-		</section>
-	</div>
-	</div>
-
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-  	<script src="js/script.js"></script>
 </body>
+
 </html>
